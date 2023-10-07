@@ -51,6 +51,26 @@ class Project2Assets extends Assets {
   @override
   // TODO: implement splashAssets
   SplashAssets get splashAssets => throw UnimplementedError();
+  
+  @override
+  // TODO: implement authForgetPasswordAssets
+  AuthForgetPasswordAssets get authForgetPasswordAssets => throw UnimplementedError();
+  
+  @override
+  // TODO: implement authLoginAndRegisterErrorAssets
+  AuthLoginAndRegisterErrorAssets get authLoginAndRegisterErrorAssets => throw UnimplementedError();
+  
+  @override
+  // TODO: implement authLoginOtpAssets
+  AuthLoginOtpAssets get authLoginOtpAssets => throw UnimplementedError();
+  
+  @override
+  // TODO: implement authLoginPasswordAssets
+  AuthLoginPasswordAssets get authLoginPasswordAssets => throw UnimplementedError();
+  
+  @override
+  // TODO: implement authUserRegisterAssets
+  AuthUserRegisterAssets get authUserRegisterAssets => throw UnimplementedError();
 }
 
 class _HomeAssets extends HomeAssets {

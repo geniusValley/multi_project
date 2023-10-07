@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_origin",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_origin (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_origin (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter",
+            "program": "lib/origin.dart",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

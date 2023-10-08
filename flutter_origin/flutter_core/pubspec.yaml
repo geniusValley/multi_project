@@ -1,17 +1,14 @@
-name: ui
+name: appback
 description: A new Flutter project.
 publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.1.2 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  appback:
-    path: ./flutter_core/
-
 
 dev_dependencies:
   flutter_test:

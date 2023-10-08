@@ -1,4 +1,4 @@
-name: flutter_application_2
+name: larisa
 description: A new Flutter project.
 publish_to: 'none'
 version: 0.1.0
@@ -7,12 +7,11 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  origin:
+  ui:
    path: ../../../
   flutter:
     sdk: flutter
-  # origin:
-  #  path:../../
+
 
 dev_dependencies:
   flutter_test:

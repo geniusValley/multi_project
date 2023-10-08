@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:origin/config/assets.dart';
-import 'package:origin/config/config.dart';
-import 'package:origin/config/types.dart';
-import 'package:origin/origin.dart';
-import 'package:origin/pages/auth/auth_enum.dart';
-import 'package:origin/pages/splash/views/splash_enum.dart';
+import 'package:ui/config/assets.dart';
+import 'package:ui/config/config.dart';
+import 'package:ui/config/types.dart';
+import 'package:ui/ui.dart';
+import 'package:ui/pages/auth/auth_enum.dart';
+import 'package:ui/pages/splash/views/splash_enum.dart';
 
 void main() {
   runApp(myapp);
@@ -19,7 +19,7 @@ Configuration config = Configuration(
   assets: assets,
 );
 ThemeData theme = ThemeData();
-AppWidget home = AppWidget();
+// AppWidget home = AppWidget();
 Project2Assets assets = Project2Assets();
 AppLarisa types = AppLarisa();
 
@@ -30,19 +30,19 @@ class AppLarisa extends Types{
 
   @override
   // TODO: implement splashType
-  SplashType get splashType => SplashType.appLarisa;
+  SplashType get splashType => SplashType.larisa;
 
 }
 
 
-class AppWidget extends StatelessWidget {
-  const AppWidget({super.key});
+// class AppWidget extends StatelessWidget {
+//   const AppWidget({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold();
+//   }
+// }
 
 class Project2Assets extends Assets {
   @override

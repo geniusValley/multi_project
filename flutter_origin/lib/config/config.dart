@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'assets.dart';
 import 'types.dart';
+export 'assets.dart'; 
+export 'types.dart';
 
 class Configuration {
   Types types;

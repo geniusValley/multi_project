@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:origin/origin.dart';
+import 'package:ui/ui.dart';
 
-import '17online.dart';
+import 'mantopars.dart';
 import 'splash_enum.dart';
 
 class SplashSwitch extends StatelessWidget {
@@ -10,7 +10,7 @@ class SplashSwitch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     switch (globalConfig.types.splashType) {
-      case SplashType.app17online:
+      case SplashType.mantoPars:
       return App17OnlineSplashPage();
       default:
       return SizedBox();

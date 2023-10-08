@@ -1,4 +1,4 @@
 enum AuthType{
-  app17online,
-  appLarisa,
+  mantoPars,
+  larisa,
 }

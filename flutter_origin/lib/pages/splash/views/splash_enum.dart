@@ -1,5 +1,5 @@
 enum SplashType {
-  app17online,
-  appLarisa,
+  mantoPars,
+  larisa,
 }
 

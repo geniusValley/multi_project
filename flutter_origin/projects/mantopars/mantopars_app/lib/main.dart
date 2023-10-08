@@ -4,6 +4,8 @@ import 'package:ui/ui.dart';
 import 'package:ui/pages/auth/auth_enum.dart';
 import 'package:ui/pages/splash/views/splash_enum.dart';
 
+import 'env.dart';
+
 void main() {
   runApp(myapp);
 }
@@ -14,7 +16,7 @@ final myapp = Metanext3(
     types: types,
     theme: theme,
     // home: home,
-    assets: assets,
+    assets: assets, env: MantoparsEnv(),
   ),
 );
 

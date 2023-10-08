@@ -3,19 +3,24 @@
 import 'package:flutter/material.dart';
 
 import 'assets.dart';
+import 'env.dart';
 import 'types.dart';
-export 'assets.dart'; 
+
+export 'assets.dart';
+export 'env.dart';
 export 'types.dart';
 
 class Configuration {
-  Types types;
-  ThemeData theme;
+  final Env env;
+  final Types types;
+  final ThemeData theme;
   // Widget home;
-  Assets assets;
+  final Assets assets;
+
   Configuration({
+    required this.env,
     required this.types,
     required this.theme,
-    // required this.home,
     required this.assets,
   });
 }
